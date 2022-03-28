@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+/* -- HEADER -- */
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 165px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    margin-left: 28px;
+}
+
+header nav ul li a {
+    color:#242E52;
+    text-decoration: none;
+}
+
+.button-getStarted {
+    border-radius: 50px;
+    height: 44px;
+    padding: 10px;
+    width: 134px;
+}
+
+.button-getStarted-naranja {
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* -- MAIN --  */
+
+/* -- SECTION 1 -- */
+
+
+ section.section1-graficos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 165px;
+    height: calc(100vh - 200px);
+    margin-bottom: 50px;
+}
+
+/* ARTICLE IZQ */
+section.section1-graficos article.article-left-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    margin-right: 50px;
+   
+}
+
+section.section1-graficos article.article-left-presentation #h1-bring {
+    color: #232C50;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 28px;
+    /* width: 490px; */
+}
+
+section.section1-graficos article.article-left-presentation span {
+    color: #B3B2B7;
+    font-weight: 500;
+    width: 350px;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+/* ARTCILE DER */
+section.section1-graficos .article-right-img {
+    background-image: url(img/bg-tablet-pattern.svg);    
+}
+section.section1-graficos .article-right-img img {
+    width: 500px;
+}
+
+/* -- SECTION 2 --  */
+.section2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 90px 165px;
+}
+   
+/* ARTICLE IZQ */
+
+.section2 .article-left-whatAbout {
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 .article-left-whatAbout h2 {
+    color: #232851;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.section2 .article-left-whatAbout span {
+    color: #B3B2B7;
+    font-weight: 500;
+    line-height: 24px;
+    width: 30vw;
+}
+
+/* ARTICLE DER */
+.section2 .article-right-description {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* BOTONES ORANGE */
+.section2 .article-right-description .div-numbers-orange {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    margin-right: 30px;
+}
+
+.section2 .article-right-description .div-numbers-orange .numbers-orange {
+    border-radius: 50px;
+    height: 45px;
+    padding: 10px 25px;
+    width: 70px;
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 210%;
+}
+
+/* DESCRIPCIONES */
+
+.section2 .article-right-description .div-descripcion {
+    display: flex;
+    flex-direction: column;
+    
+}
+.section2 .article-right-description .div-descripcion .descripciones {
+    margin-bottom: 15%;
+}
+
+.section2 .article-right-description .div-descripcion .descripciones .h4-titulo {
+    margin-bottom: 5%;
+}
+
+.section2 .article-right-description .div-descripcion .descripciones .p-descripcion {
+    color: #B3B2B7;
+    line-height: 25px;
+}
+
+/* -- SECTION 3 -- */
+
+.section3-users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3-users h2 {
+    color: #242E53;
+    font-weight: 700;
+    font-size: 39px;
+}
+
+/* ARTICLES */
+.section3-users div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 109px 71px 45px 71px;
+    /* margin-bottom: 10px; */
+}
+
+.section3-users div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    margin-right: 20px;
+    position: relative;
+   
+}
+
+.section3-users div article img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:-29px;
+}
+
+.section3-users div article .user-name {
+    font-weight: 700;
+    color: #3F4868;
+    margin-top: 80px;
+}
+
+.section3-users div article .user-comment {
+    color: #B9B9C1;
+    line-height: 25px;
+    padding: 21px 21px 38.5px 21px;
+}
+
+/* SECTION4 */
+.section4 {
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    background-color: #F3613C; 
+    height: 220px;
+    margin-top: 180px;
+}
+
+.section4 h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 500px;
+}
+
+.section4 .button-getStarted-blanco {
+    background-color: white;
+    color: #F3603B;
+    border: solid 1px white;
+}
+
+/* -- FOOTER -- */
+
+footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: #1E1E26;
+    /* height: 30vh; */
+    padding: 67px 170px 52px 170px;
+}
+
+/* ARTICLE SOCIAL MEDIA  */
+footer .article-logo-socialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .article-logo-socialMedia img {
+    margin-bottom: 66px;
+}
+
+footer .article-logo-socialMedia div i {
+    color: white;
+    margin-right: 10px;
+}
+
+/* NAVS */
+
+/* NAV LEFT */
+
+footer .nav-left ul li {
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+footer .nav-left ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* NAV RIGHT */
+
+footer .nav-right ul li {
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+footer .nav-right ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* INBOX - COPYRIGHT */
+footer .div-inbox-copyright {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .div-inbox-copyright div {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+footer .div-inbox-copyright div form input {
+    width:201px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    margin-right: 9px;
+}
+
+footer .div-inbox-copyright div button {
+    border-radius: 50px;
+    height: 45px;
+    padding: 10px 25px;
+    width: 70px;
+    background-color: #F3603B;
+    border: 1px solid #F3603B;
+    color: #FFFFFF;
+    font-weight: 500;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+
+footer .div-inbox-copyright span {
+    color: #8C8C94;
+    font-size: 12px;
+    font-weight: 500;
+}
